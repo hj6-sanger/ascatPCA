@@ -1,5 +1,7 @@
 # ascatPCA
 
+Welcome to this site for ascatPCA. This site will serve as a source code repository for ascatPCA.
+
 ascatPCA requires a panel of normal dataset for denoising copy number variation profiles using Princinpal Component Analysis.
 
 
