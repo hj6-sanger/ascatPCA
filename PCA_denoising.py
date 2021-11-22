@@ -39,31 +39,7 @@ dt_patient = dict(zip(sample,patient))
 dt_gender = dict(zip(sample,gender))
 
 
-#Kerian, this part should be rewritten as we discussed before. 
-#As for deleting locations with NA, while loading the control_matrix just drop any line that 
-#matches a regex for NA and stuff into a 2-layer python dict keyed on chr/pos (matrix[chr][pos]=data). 
-#Then load the "case" dropping rows that have NA, outputting those that are good and have a match in the control dict.  
-#I'd prefer to avoid R unless it really is necessary.
-
 #PCA denoising code using RPY2 (input : case logR & control logR matrix)
-
-
-#r.assign('case_file','v2_' + sample[i] + '.logR')
-#r('case=read.table(case_file,row.names=1)')
-
-
-#r.assign('control_matrix',sample[i]+'.matrix.txt')
-#r('control=read.table(control_matrix,row.names=1,header=TRUE)')
-
-
-#r('sv=svd(control)')
-#r('t2=t(as.matrix(case)) %*% sv$u')
-#r('t3=t2 %*% t(sv$u)')
-##r('t5=case-t4')
-#r('t4=t(t3)')
-#r.assign('denoised_logR','pre_' +sample[i]+'_denoised.tumour.LogR.txt')
-#r('write.table(t5,denoised_logR,col.names = F,sep="\t")')
-
 
 i=0
 while i < len(sample) :
