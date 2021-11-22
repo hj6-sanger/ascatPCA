@@ -10,6 +10,6 @@ cal_log.py : Calculation of logR based on allele.count files
 
 PCA_denoising.py : Performing PCA with case logR and control logR matrix
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/hj6-sanger/ascatPCA/blob/main/ascatPCA.jpeg)
 
 
