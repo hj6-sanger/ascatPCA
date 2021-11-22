@@ -1,6 +1,6 @@
 # ascatPCA
 
-Welcome to this site for ascatPCA. This site will serve as a source code repository for ascatPCA.
+Welcome to this site for ascatPCA. This site will serve as a source code repository for making inputs (i.e., denoised logR) for ascatNGS.
 
 ascatPCA requires a panel of normal dataset for denoising copy number variation profiles using Princinpal Component Analysis.
 
